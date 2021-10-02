@@ -1,0 +1,29 @@
+{
+  "name": "oath2-fully-loaded-assignment-2",
+  "version": "1.0.0",
+  "description": "IT18229912-N.T. Wanigasinghe IT18205152-A.K.G.H. Shehara | Assignment 2 | Secure Software Development ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaweenTharuka/SSD-Assignment-2.git"
+  },
+  "author": "IT18229912-IT18205152",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^1.3.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "googleapis": "^39.2.0",
+    "nunjucks": "^3.2.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/NaweenTharuka/SSD-Assignment-2/issues"
+  },
+  "homepage": "https://github.com/NaweenTharuka/SSD-Assignment-2#readme"
+}
