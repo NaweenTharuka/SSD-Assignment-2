@@ -12,10 +12,10 @@
 <body>
 
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper" style="background:#1FA463;">
             <ul id="nav-mobile" class="right">
                 <li>{{name}}</li>
-                <li><a href="/auth/logout">logout</a></li>
+                <li><a href="/auth/logout">Logout</a></li>
             </ul>
         </div>
     </nav>
@@ -28,8 +28,8 @@
                         <li class="collection-item avatar">
                             <img src="{{avatar}}" alt="avatar" class="circle">
                             <span class="title">{{name}}</span>
-                            <p>googleid - (user id) {{googleid}}</p>
-                            <p>email - {{email}}</p>
+                            <p>GoogleID - (user id) {{googleid}}</p>
+                            <p>Email - {{email}}</p>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
 
                     <form action="/upload" method="post" enctype="multipart/form-data">
                         <div class="file-field input-field">
-                            <div class="btn">
+                            <div class="btn" style="background:#4688F4;">
                                 <span>File</span>
                                 <input type="file" required name="file_upload">
                             </div>
@@ -58,7 +58,7 @@
                                 <input class="file-path validate" type="text">
                             </div>
                         </div>
-                        <button style="display: block; margin: 0 auto" class="btn waves-effect waves-light"
+                        <button style="display: block; background:#3D6EC9; margin: 0 auto" class="btn waves-effect waves-light"
                             type="submit">UPLOAD</button>
                     </form>
                 </div>
